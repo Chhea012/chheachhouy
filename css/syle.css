@@ -1,0 +1,133 @@
+body{
+    background-color: rgba(220, 220, 220, 0.747);
+}
+.container {
+    display: flex;
+    margin: 20px;
+}
+main {
+    flex: 3;
+    margin-right: 20px;
+    background: white;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f5f5f5ad;
+
+}
+#image-1 img{
+    width:100px ;
+    height: 100px;
+    border-radius: 360px;
+}
+#image-2 img{
+    width:100px ;
+    height: 100px;
+    border-radius: 360px;
+}
+#image-3 img{
+    width:100px ;
+    height: 100px;
+    border-radius: 360px;
+}
+button{
+    border: 2px solid ;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    background-color:rgb(6, 87, 119) ;
+    border-radius: 20px;
+}
+
+#image-1{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px 1px rgba(143, 132, 132, 0.637);
+    border-radius: 10px;
+}
+#image-2{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px 1px rgba(143, 132, 132, 0.637);
+    border-radius: 10px;
+}
+#image-3 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px 1px rgba(143, 132, 132, 0.637);
+    border-radius: 10px;
+}
+#line{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+#image-1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+#image-2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+#image-3 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+h3{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+ #image-1 p{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+ #image-2 p{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+ #image-3 p{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+button:hover{
+    background: #3fb8a3;
+    transform: scale(1.04);
+}
